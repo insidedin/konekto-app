@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:konekto/views/home.dart/home.dart';
 import 'package:konekto/widgets/boardingView.dart';
+import 'package:konekto/widgets/navigation.dart';
 
 class OnBoarding extends StatefulWidget {
   const OnBoarding({super.key});
@@ -43,14 +43,14 @@ class _OnBoardingState extends State<OnBoarding> {
   void navigateToHome() {
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (context) => Home()),
+      MaterialPageRoute(builder: (context) => Navigation()),
     );
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0x00C3E1F8),
+      backgroundColor: const Color.fromARGB(255, 206, 221, 247),
       body: Stack(
         children: [
           PageView(
