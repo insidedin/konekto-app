@@ -1,6 +1,6 @@
 # konekto
 
-A new Flutter project.
+A project implementation of transportation issues. Konekto (Konektivitas Kito) is thhe solution for public transportation in Palembang - Sumatera Selatan. 
 
 ## Getting Started
 
