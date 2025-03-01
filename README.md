@@ -1,4 +1,4 @@
-# konekto
+# konekto app
 
 A project implementation of transportation issues. Konekto (Konektivitas Kito) is the solution for public transportation in Palembang - Sumatera Selatan. 
 
