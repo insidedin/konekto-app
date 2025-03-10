@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:konekto/views/home.dart/home.dart';
-import 'package:konekto/views/pages/discount.dart';
-import 'package:konekto/views/pages/news.dart';
-import 'package:konekto/views/pages/profile.dart';
+import 'package:konekto/views/navpages/discount.dart';
+import 'package:konekto/views/navpages/home.dart';
+import 'package:konekto/views/navpages/news.dart';
+import 'package:konekto/views/navpages/profile.dart';
 
 class Navigation extends StatefulWidget {
   const Navigation({super.key});
